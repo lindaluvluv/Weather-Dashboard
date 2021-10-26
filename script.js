@@ -14,7 +14,7 @@ const getCityWeathers = async (city) => {
   let res, data, lat, lon;
   // get lat, lon of city
   res = await fetch(
-    `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`
   );
   data = await res.json();
   lat = data.coord.lat;
