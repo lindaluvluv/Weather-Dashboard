@@ -107,7 +107,7 @@ const renderCityToHtml = (
       />
       <small>${new Date(date).toLocaleDateString()}</small>
     </h5>
-    <p class="card-text">Temputure: <span id="temputure">${temputure}</span>°C</p>
+    <p class="card-text">Temputure: <span id="temputure">${temputure}</span>°F</p>
     <p class="card-text">Humidity: <span id="humidity">${humidity}</span>%rh</p>
     <p class="card-text">
       Wind Speed: <span id="wind-speed">${windSpeed}</span>km/h
